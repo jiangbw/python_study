@@ -21,7 +21,7 @@ class Settings:
 
         # 外星人设置
         self.alien_speed_factor = 2
-        self.fleet_drop_speed = 50
+        self.fleet_drop_speed = 10
         self.alien_points = 50
         # 外星人点数的提高速度
         self.score_scale = 1.5
