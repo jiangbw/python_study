@@ -6,7 +6,7 @@ class Settings:
         self.bg_color = (255, 255, 255)
 
         # 飞船的设置
-        self.ship_speed_factor = 50
+        self.ship_speed_factor = 10
         self.ship_limit = 2
 
         # fleet_direction 为1表示向右，为－1表示向左
@@ -21,7 +21,7 @@ class Settings:
 
         # 外星人设置
         self.alien_speed_factor = 0.5
-        self.fleet_drop_speed = 5
+        self.fleet_drop_speed = 1
         self.alien_points = 10
         # 外星人点数的提高速度
         self.score_scale = 1.5
