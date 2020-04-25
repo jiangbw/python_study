@@ -6,7 +6,7 @@ class Settings:
         self.bg_color = (255, 255, 255)
 
         # 飞船的设置
-        self.ship_speed_factor = 10
+        self.ship_speed_factor = 2
         self.ship_limit = 2
 
         # fleet_direction 为1表示向右，为－1表示向左
@@ -20,7 +20,7 @@ class Settings:
         self.bullets_allowed = 30
 
         # 外星人设置
-        self.alien_speed_factor = 0.5
+        self.alien_speed_factor = 3
         self.fleet_drop_speed = 1
         self.alien_points = 10
         # 外星人点数的提高速度
@@ -31,9 +31,9 @@ class Settings:
         self.initialize_dynamic_settings()
 
     def initialize_dynamic_settings(self):
-        self.ship_speed_factor = 30
-        self.bullet_speed_factor = 30
-        self.alien_speed_factor = 5
+        self.ship_speed_factor = 10
+        self.bullet_speed_factor = 10
+        self.alien_speed_factor = 2
 
         # fleet_direction 为1表示向右，为－1表示向左
         self.fleet_direction = 1
