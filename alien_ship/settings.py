@@ -20,9 +20,9 @@ class Settings:
         self.bullets_allowed = 30
 
         # 外星人设置
-        self.alien_speed_factor = 2
-        self.fleet_drop_speed = 10
-        self.alien_points = 50
+        self.alien_speed_factor = 0.5
+        self.fleet_drop_speed = 5
+        self.alien_points = 10
         # 外星人点数的提高速度
         self.score_scale = 1.5
 
